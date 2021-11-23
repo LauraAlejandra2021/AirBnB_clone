@@ -1,0 +1,51 @@
+.container .filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px #DDDDDD solid;
+    border-radius: 4px;
+    text-align:left;
+
+}
+
+.bsearch {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color:#FFFFFF;
+    height:48px;
+    width:20%;
+    border:0;
+    border-radius:4px;
+    margin:11px;
+    margin-right: 30px;
+    float: right;
+}
+
+div.bsearch:hover button {
+    opacity:90%;
+}
+
+.locations, .amenities {
+    height:100%;
+    width:25%;
+    float: left;
+    padding-left:50px;
+    padding-top:10px;
+}
+
+.locations {
+    border-right: #DDDDDD 1px solid;
+}
+
+section.filters h3 {
+    font-weight:600;
+    margin:2px;
+    
+}
+
+section.filters h4 {
+    font-weight:400;
+    font-size:14px;
+    margin:0px;
+    
+}
