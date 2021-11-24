@@ -35,8 +35,11 @@
 
 .locations {
     border-right: #DDDDDD 1px solid;
+    position: relative;
 }
-
+.amenities {
+    position: relative;
+}
 section.filters h3 {
     font-weight:600;
     margin:2px; 
@@ -50,6 +53,9 @@ section.filters h4 {
 
 .popover {
     display: none;
+    position:absolute;
+    top:70px;
+    left:0px;
 }
 
 .locations:hover > .show {
@@ -61,7 +67,6 @@ display:block;
 }
 
 .show {
-    background-color:#FAFAFA;
-    width: 100%;
-
+    background-color:#c53b3bab;
+    width:100%;
 }
