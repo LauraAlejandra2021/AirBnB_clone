@@ -1,0 +1,38 @@
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #ff5a5f solid;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .places > h1 {
+    text-align: left;
+    font-size: 30px;
+  }
+  
+  #TH {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  #MH {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  #AS {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+  }
+  
+  #THMH {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
